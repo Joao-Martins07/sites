@@ -1,0 +1,98 @@
+/* ===== CSS RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* ===== HEADER ===== */
+.site-header {
+  background-color: #1a1818;
+  color: rgb(255, 255, 255);
+  padding: 30px;
+  text-align: center; /* Centraliza o título */
+}
+
+/* ===== NAV FLEXBOX ===== */
+.site-header nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Espaço entre os links */
+  margin-top: 15px;
+}
+
+.site-header nav a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+/* Hover nos links */
+.site-header nav a:hover {
+  color: #00ffcc;
+}
+
+/* ===== MAIN ===== */
+main {
+  padding: 20px;
+}
+
+/* ===== SECTIONS ===== */
+section {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Div que contém os articles */
+section div {
+  display: flex; /* Articles lado a lado */
+  gap: 20px;
+  margin-top: 15px;
+}
+
+/* ===== ARTICLES ===== */
+article {
+  border: 1px solid #ccc;
+  padding: 15px;
+  flex: 1;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+/* ===== IMAGENS (BÔNUS) ===== */
+figure {
+  margin-top: 10px;
+}
+
+figure img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+figcaption {
+  font-size: 0.9rem;
+  margin-top: 5px;
+  color: #555;
+}
+
+/* ===== ASIDE ===== */
+aside {
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+}
+
+/* ===== FOOTER ===== */
+.site-footer {
+  background-color: #222;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
